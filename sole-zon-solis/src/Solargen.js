@@ -7,9 +7,9 @@ export default function Solargen(){
               <header className="App-header">
                   <Navbar/>
               </header>
-              <body>
+              <div>
                   <p>Currently under construction, apologies for the inconvenience</p>
-              </body>
+              </div>
         </div>
       );
 }

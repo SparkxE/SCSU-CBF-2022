@@ -8,7 +8,6 @@ function App() {
     <>
       <div className="App">
             <header className="App-header">
-              <p>TEst</p>
                 <Navbar/>
             </header>
             <div>
@@ -21,21 +20,14 @@ function App() {
 }
 function Navbar(){
   return(
-  <div>
+  <div className='App-navbar'>
     <Nav>
-      <Nav.Item><Link to={"./App.js"}><img src={logo} alt=""/></Link></Nav.Item>
-      <Nav.Item><Link to={"./Contact.js"}>Contact</Link></Nav.Item>
-      <Nav.Item><Link to={"./Manufac.js"}>Manufacturing</Link></Nav.Item>
-      <Nav.Item><Link to={"./Solargen.js"}>Solar Generation</Link></Nav.Item>
-      <Nav.Item><Link to={"./Login.js"}></Link></Nav.Item>
+      <Nav.Item><Link to={"./App.js"}><img src={logo} style={{width: 200, height: 70}} alt=""/></Link></Nav.Item>
+      <Nav.Item><Link to={"./Contact.js"}> Contact </Link></Nav.Item>
+      <Nav.Item><Link to={"./Manufac.js"}> Manufacturing </Link></Nav.Item>
+      <Nav.Item><Link to={"./Solargen.js"}> Solar Generation </Link></Nav.Item>
+      <Nav.Item><Link to={"./Login.js"}> Login </Link></Nav.Item>
     </Nav>
-    {/* <Routes>
-        <Route path="/home" element={<Link to={"./App.js"}><img src={logo} alt=""/></Link>} />
-        <Route path="/contact" element={<Link to={"./Contact.js"}>Contact</Link>} />
-        <Route path="/manufacturing" element={<Link to={"./Manufac.js"}>Manufacturing</Link>} />
-        <Route path="/solar" element={<Link to={"./Solargen.js"}>Solar Generation</Link>} />
-        <Route path="/login" element={<Link to={"./Login.js"}></Link>} />
-    </Routes> */}
   </div>
   );
 }

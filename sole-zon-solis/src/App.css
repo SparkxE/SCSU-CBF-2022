@@ -15,6 +15,11 @@
   pointer-events: none;
 }
 
+.App-navbar{
+  flex-direction: row;
+  height: 20vh;
+}
+
 .App-header {
   height: 25vh;
   display: flex;
