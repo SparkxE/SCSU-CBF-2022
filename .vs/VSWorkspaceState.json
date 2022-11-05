@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\sole-zon-solis",
+    "\\sole-zon-solis\\public",
+    "\\sole-zon-solis\\src"
   ],
-  "SelectedNode": "\\C:\\Users\\sylve\\Source\\Repos\\sole-zon-solis",
+  "SelectedNode": "\\sole-zon-solis\\public\\index.html",
   "PreviewInSolutionExplorer": false
 }
