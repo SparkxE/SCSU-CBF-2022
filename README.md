@@ -1,4 +1,4 @@
-# sole-zon-solis
+#SCSU Cyberforce 2022
 Repo for Cyberforce 2022 SCSU competition web page
 
 This repository (repo) was used for up/downloading source code and other files to & from our 
